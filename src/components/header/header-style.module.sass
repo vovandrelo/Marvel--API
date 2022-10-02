@@ -1,0 +1,24 @@
+@import '../../style/variables.sass'
+
+.header
+    display: flex
+    justify-content: space-between
+    .title
+        font-size: 28px
+        font-weight: 700
+        line-height: 33px
+    & span
+        color: $mainRed
+    .navigate
+        width: 200px
+        font-size: 24px  
+        font-weight: 700
+        line-height: 28px
+        .list
+            display: flex
+            justify-content: space-between
+            .link
+                color: black
+                text-decoration: none
+            .link.active
+                color: $mainRed
